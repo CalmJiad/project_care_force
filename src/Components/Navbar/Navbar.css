@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Caveat:wght@500&display=swap');
+
+.MenuBar-container {
+    background-color: rgb(43, 94, 77);
+}
+
+.menu-container ul {
+    margin-bottom: 0;
+}
+
+.items {
+    list-style: none;
+    margin-right: 12px;
+    font-size: 22px;
+    font-weight: 400;
+    color: rgb(129, 231, 61);
+    cursor: pointer;
+    padding: 5px;
+    text-decoration: none;
+  }
+  .items:hover {
+    color: rgb(160, 253, 202);
+  }
+
+  .logo-brand{
+      padding-top: 5px;
+      color: rgb(190, 214, 52);
+      font-size: 30px;
+      font-family: 'Caveat';
+  }
+
+  .logo-brand p{
+      margin-bottom: 0;
+  }
