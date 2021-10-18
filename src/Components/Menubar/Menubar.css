@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Allura&family=Caveat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Caveat&family=Lato:wght@500&display=swap');
 
 .MenuBar-container {
-    background-color: rgb(43, 94, 77);
+    background-color: rgb(14, 97, 94);
 }
 
 .menu-container ul {
@@ -31,4 +31,19 @@
 
   .logo-brand p{
       margin-bottom: 0;
+  }
+
+  @media screen and (max-width: 767px) {
+      .logo-brand{
+          padding-bottom: 10px;
+          font-size: 20px;
+          margin: auto;
+          text-align: center;
+      }
+      .items{
+          display: block;
+          margin: auto;
+          text-align: center;
+          font-size: 8px;
+      }
   }

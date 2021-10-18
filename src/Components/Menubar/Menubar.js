@@ -10,7 +10,7 @@ const Menubar = () => {
           <div className="row m-auto p-1">
             <div className="col-md-2">
               <div className="logo-brand">
-                <p className="brand"><i class="fas fa-heartbeat"></i>Medi Care</p>
+                <p className="brand"><i className="fas fa-heartbeat"></i>Medi Care</p>
               </div>
             </div>
             <div className="col-md-10">
