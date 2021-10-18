@@ -6,13 +6,13 @@ import {
   Link
 } from "react-router-dom";
 import './App.css';
-import Navbar from './Components/Navbar/Navbar';
+import Menubar from './Components/Menubar/Menubar';
 
 function App() {
   return (
     <div>
       <Router>
-      <Navbar></Navbar>
+      <Menubar></Menubar>
         <Switch>
           <Route>
 
