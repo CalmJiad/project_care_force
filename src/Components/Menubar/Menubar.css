@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Allura&family=Caveat&family=Lato:wght@500&display=swap');
 
 .MenuBar-container {
-    background-color: rgb(14, 97, 94);
+    background-color: #04888d;
 }
 
 .menu-container ul {
@@ -13,9 +13,9 @@
     margin-right: 12px;
     font-size: 22px;
     font-weight: 400;
-    color: rgb(129, 231, 61);
+    color: rgb(243, 255, 68);
     cursor: pointer;
-    padding: 5px;
+    padding: 8px;
     text-decoration: none;
   }
   .items:hover {
@@ -24,7 +24,7 @@
 
   .logo-brand{
       padding-top: 5px;
-      color: rgb(190, 214, 52);
+      color: rgb(243, 255, 68);
       font-size: 30px;
       font-family: 'Caveat';
   }
@@ -34,9 +34,12 @@
   }
 
   @media screen and (max-width: 767px) {
+      .MenuBar-container{
+          height: 75px;
+      }
       .logo-brand{
-          padding-bottom: 10px;
-          font-size: 20px;
+          letter-spacing: 2px;
+          font-size: 16px;
           margin: auto;
           text-align: center;
       }
@@ -44,6 +47,6 @@
           display: block;
           margin: auto;
           text-align: center;
-          font-size: 8px;
+          font-size: 10px;
       }
   }

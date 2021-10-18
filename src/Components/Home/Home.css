@@ -1,7 +1,9 @@
-.banner {
-    height: 580px;
+.banner img {
+    height: 620px;
 }
 
-.banner img {
-    height: 570px;
+@media screen and (max-width: 767px){
+    .banner img {
+        height: 260px;
+    }
 }

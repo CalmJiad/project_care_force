@@ -1,0 +1,14 @@
+@media screen and (max-width: 767px) {
+    .footeritem{
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+
+    }
+    .footer-logo{
+        font-size: 24px !important;
+    }
+
+    .copyright{
+        font-size: 12px;
+    }
+}

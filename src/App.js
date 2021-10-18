@@ -6,9 +6,11 @@ import {
   Link
 } from "react-router-dom";
 import './App.css';
+import About from "./Components/About/About";
 import Error from "./Components/Error/Error";
 import Home from "./Components/Home/Home";
 import Menubar from './Components/Menubar/Menubar';
+import Services from "./Components/Services/Services";
 
 function App() {
   return (
@@ -21,6 +23,12 @@ function App() {
           </Route>
           <Route path="/home">
             <Home></Home>
+          </Route>
+          <Route path="/services">
+            <Services></Services>
+          </Route>
+          <Route path="/about">
+            <About></About>
           </Route>
           <Route path="*"> 
             <Error></Error>

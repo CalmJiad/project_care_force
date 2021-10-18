@@ -5,9 +5,9 @@ import './Menubar.css';
 
 const Menubar = () => {
     return (
-        <div className="MenuBar-container">
+        <div className="p-2 MenuBar-container">
         <div className="container">
-          <div className="row m-auto p-1">
+          <div className="row m-auto">
             <div className="col-md-2">
               <div className="logo-brand">
                 <p className="brand"><i className="fas fa-heartbeat"></i>Medi Care</p>
