@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Caveat&family=Lato:wght@500&display=swap');
+
+.dept-heading{
+    font-family: 'Caveat';
+}
+
+.doc-img{
+    height: 450px !important;
+    margin: auto;
+}
+
+@media screen and (max-width: 767px){
+    .detailcard{
+        width: 340px !important;
+    }
+
+    .detailcard p{
+        font-size: 16px !important;
+    }
+
+    .doc-img{
+        height: 230px !important;
+        /* width: 250px !important; */
+        margin: auto;
+    }
+}

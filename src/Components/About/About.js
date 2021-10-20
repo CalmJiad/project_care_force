@@ -5,7 +5,7 @@ import aboutimg from "../../images/about_us_banner.png";
 const About = () => {
     return (
         <div className="container-fluid mt-5">
-            <div class="divider"><span></span><span>History Of Us</span><span></span></div>
+            <div className="divider"><span></span><span>History Of Us</span><span></span></div>
             <div className="row p-5 pt-0">
                 <div className="col-md-7 col-sm-12 m-auto">
                     <img src={aboutimg} className="img-fluid" alt="" />

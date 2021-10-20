@@ -1,0 +1,8 @@
+@media screen and (max-width: 767px) {
+    .contact{
+        padding: 25px !important;
+        font-size: 18px !important;
+        background-color: white !important;
+        color: rgb(18, 53, 8) !important;
+    }
+}

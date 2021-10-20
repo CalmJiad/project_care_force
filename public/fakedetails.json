@@ -1,0 +1,48 @@
+
+
+
+{
+    "employee": [
+      {
+        "id": "1000",
+        "department" : "Department Of Cardiology",
+        "name" : "Dr. A K Mahabub Kamal",
+        "img" : "https://i.ibb.co/Bzcg8WJ/cardiologist.jpg",
+        "about": "Dr A K Mahabub Kamal was an outstanding student and when he was in the fifth grade, he took an interest in Science and decided to become a heart surgeon. In the fifth grade, Dr A K Mahabub Kamal heard about a South African surgeon who had performed the world’s first heart transplant. Dr A K Mahabub Kamal was amazed at this surgery and began reading about it in depth. He became inspired by this surgery and decided to pursue further education in Medicine and change people’s lives."
+      },
+      {
+        "id": "1001",
+        "department" : "Department Of Orthodontics",
+        "name" : "Dr. Shamima Nasrin",
+        "img" : "https://i.ibb.co/dfGhsK3/dentist.jpg",
+        "about": "The risk of tooth decay, gum disease and tooth loss can be reduced with good oral hygiene, a low-sugar and low-acid diet, wearing a mouthguard when playing sport, and regular visits to the dentist. And here comes the excellence of Dr. Shamima Nasrin Chodhury. She has reknown result with her patients and here at Medi care we cares the best, you know."
+      },
+      {
+        "id": "1002",
+        "department" : "Department Of Traumatology",
+        "name" : "Dr. Ferdous Shahriar",
+        "img" : "https://i.ibb.co/mrs6Hpf/new1.jpg",
+        "about": "With expertise in arthroscopic and complex shoulder and elbow reconstruction, he utilizes state-of-the art surgical techniques and the latest technologies to treat the entire spectrum of shoulder and elbow injuries and problems. Each year, he performs close to 400 shoulder replacements, over 150 arthroscopic rotator cuff surgeries, and has become the regions leading tertiary referral center for complex shoulder and elbow problems. He is the highest volume shoulder replacement surgeon in the country. As a regional leader in Shoulder & Elbow Surgery, he became a member of the prestigious American Shoulder and Elbow Surgeons."
+      },
+      {
+        "id": "1003",
+        "department" : "Department Of Neurology",
+        "name" : "Dr. A M Rezaul Haider",
+        "img" : "https://i.ibb.co/02wRq0R/heart.jpg",
+        "about": "He has been exposed to all ranges of cranial emergencies starting from trauma to intracerebral hematomas and strokes; entire ranges of emergency spinal decompression, stabilization and fusion; full spectrum of routine cases like brain tumors (supra and infratentorial, intra or extra axial), trans-sphenoidal surgery for sellar - suprasellar tumors, spinal tumors; congenital and pediatric neurosurgical disorders; degenerative spine diseases; endoscopic neurosurgical procedures; vascular disorders like aneurysms and AVMs. He has multiple publications in national and international journals."
+      },
+      {
+        "id": "1004",
+        "department" : "Department Of Prostheses",
+        "name" : "Dr. S M Mahabub Kamal",
+        "img" : "https://i.ibb.co/xjvShW3/prostheses.jpg",
+        "about": "Many of our out-of-state patients gladly make a trip to see us because they have experienced how much better they feel living with an exceptionally artistic and accurate prosthesis versus a less impressive one they might have initially received closer to their home. We are also making our services more convenient every year as we develop new locations across the country. With our new “digital distance service” we can even design our prosthetics entirely based on CT scans or impressions sent to our main facility. The list of possibilities is growing each year."
+      },
+      {
+        "id": "1005",
+        "department" : "Department Of Pulmonary Diseases",
+        "name" : "Dr. Saidul Karim",
+        "img" : "https://i.ibb.co/tJDFJLj/new2.jpg",
+        "about": "Dr. Saidul Karim is a Chest Diseases & Asthma Specialist doctor in Medi Care Hospital. His qualification is MBBS, DTCD, MD (Chest), FCCP (USA), FRCP (Edinburgh). He is a Professor in the Department of Medicine at Z.H. Sikder Women's Medical College & Hospital. He has reknown result with his patients and here at Medi care we cares the best, you know"
+      }
+    ]}

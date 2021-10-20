@@ -47,6 +47,14 @@
           display: block;
           margin: auto;
           text-align: center;
-          font-size: 10px;
+          font-size: 8px;
+      }
+      .extra-text{
+         display: none;
+      }
+      .btn-menu {
+          margin: auto !important;
+          padding: 3px !important;
+          font-size: 7px;
       }
   }

@@ -1,0 +1,21 @@
+.imgpart{
+    background-image: url("../../images/img-login.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+.formpart{
+    background-color: #4cb7a5;
+    height: 600px;
+    padding: 30px;
+}
+
+@media screen and (max-width: 767px) {
+    .imgpart{
+        height: 0px;
+    }
+    .formpart {
+        padding: 0 !important;
+    }
+}
