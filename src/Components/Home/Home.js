@@ -12,7 +12,7 @@ import Footer from '../Footer/Footer';
 const Home = () => {
     return (
         <div>
-            <div className="home-container">
+            <div className="">
             <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
             <div className="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -39,11 +39,11 @@ const Home = () => {
                 <span className="visually-hidden">Next</span>
             </button>
             </div>
+            </div>
             <Extra></Extra>
             <Services></Services>
             <About></About>
             <Footer></Footer>
-            </div>
         </div>
     );
 };
