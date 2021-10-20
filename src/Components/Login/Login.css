@@ -2,12 +2,12 @@
     background-image: url("../../images/img-login.jpg");
     background-size: cover;
     background-position: center;
-    height: 600px;
+    /* height: 600px; */
 }
 
 .formpart{
     background-color: #4cb7a5;
-    height: 600px;
+    /* height: 600px; */
     padding: 30px;
 }
 
@@ -16,6 +16,7 @@
         height: 0px;
     }
     .formpart {
+        height: 100vh;
         padding: 0 !important;
     }
 }

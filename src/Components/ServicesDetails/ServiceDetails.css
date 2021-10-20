@@ -10,6 +10,10 @@
 }
 
 @media screen and (max-width: 767px){
+    .head-name{
+        font-size: 20px;
+    }
+
     .detailcard{
         width: 340px !important;
     }

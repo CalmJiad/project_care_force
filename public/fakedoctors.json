@@ -1,0 +1,48 @@
+
+[
+    {
+        "name": "Dr. AK Abdul Wahab",
+        "Speciality": "Neourologist",
+        "img": "https://i.ibb.co/y4HgVcJ/ak-abdul.jpg"
+    },
+    {
+        "name": "Dr. Shagorkia Shamim",
+        "Speciality": "Pulmonary Diseases",
+        "img": "https://i.ibb.co/LpMQH2M/sadia.jpg"
+    },
+    {
+        "name": "Prof. Dr. Humayun Jahir",
+        "Speciality": "Heart Specialist",
+        "img": "https://i.ibb.co/61pXCNN/prof.jpg"
+    },
+    {
+        "name": "Prof. Dr. Shafiul Azam",
+        "Speciality": "Prosthetist And Sports Injury",
+        "img": "https://i.ibb.co/8ds05Qk/prof2.jpg"
+    },
+    {
+        "name": "Prof. Dr. Forkan Uddin",
+        "Speciality": "Neourologist",
+        "img": "https://i.ibb.co/zRzk4km/prof.jpg"
+    },
+    {
+        "name": "Dr. Erfanul Haque",
+        "Speciality": "Heart Diseases Specialist",
+        "img": "https://i.ibb.co/xD67Cx1/sp1.jpg"
+    },
+    {
+        "name": "Prof. Dr. Minhaz Uddin",
+        "Speciality": "Psychiatrist",
+        "img": "https://i.ibb.co/60XrqdB/prof4.jpg"
+    },
+    {
+        "name": "Dr. Sadia Tarannum",
+        "Speciality": "Dermatologist",
+        "img": "https://i.ibb.co/j4DHrCg/salma.jpg"
+    },
+    {
+        "name": "Dr. Jabed Chodhury",
+        "Speciality": "Orthopedist",
+        "img": "https://i.ibb.co/pQNmjx2/prof44.jpg"
+    }
+]

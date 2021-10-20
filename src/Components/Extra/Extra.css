@@ -37,7 +37,10 @@
      margin: auto !important;
      padding: 2px;
  }
- .text-part h4, h2{
+ .text-part h4{
     font-size: 1.5em;
+}
+.text-part h2 {
+    font-size: 1.4em;
 }
 }

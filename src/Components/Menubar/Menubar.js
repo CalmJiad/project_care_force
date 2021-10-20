@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import useFirebase from '../../Hooks/useFirebase';
+import useAuth from '../../Hooks/useAuth';
 import './Menubar.css';
 
 
 const Menubar = () => {
-  const {user, handleSignOut} = useFirebase();
+  const {user, handleSignOut} = useAuth();
     return (
         <div className="p-2 MenuBar-container">
         <div className="container">
@@ -30,16 +30,17 @@ const Menubar = () => {
                   <Link to="/contact" className="items">
                     <li>Contact</li>
                   </Link>
-                  <Link to="/login" className="items">
+                  { user.email ? 
+                    <div>
+                      <span className="text-warning fs-5 me-2 extra-text">
+                      {user.displayName}
+                      </span> 
+                      <button onClick={handleSignOut} className="btn btn-warning btn-menu">Log Out</button>
+                    </div> :
+                    <Link to="/login" className="items">
                     <li>Log In</li>
                   </Link>
-                  <div>
-                  <span className="text-warning fs-5 me-2 extra-text">{user.displayName}</span>
-                  {
-                    user?.email &&
-                    <button onClick={handleSignOut} className="btn btn-warning btn-menu">Log Out</button>
                   }
-                  </div>
                 </ul>
               </div>
             </div>

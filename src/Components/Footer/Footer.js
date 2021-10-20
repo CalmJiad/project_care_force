@@ -32,7 +32,7 @@ const Footer = () => {
                     <p className="mt-4">Solutions to Complex Medical Problems: Medi Care</p>
                 </div>
             </div>
-            <p className="text-center text-secondary mb-0 copyright">&copy; All Rights Reserved | | Ekramul Haque Jiad | | 2021</p>
+            <p className="text-center text-white mb-0 copyright">&copy; All Rights Reserved | | Ekramul Haque Jiad | | 2021</p>
         </div>
     );
 };

@@ -5,7 +5,6 @@ import banner2 from '../../images/banner-images/healthy-woman-doctor-s-office.jp
 import banner3 from '../../images/banner-images/physician-corporate-brown-hair-contract-sophisticated (1).jpg';
 import Extra from '../Extra/Extra';
 import Services from '../Services/Services';
-import About from '../About/About';
 import Footer from '../Footer/Footer';
 
 
@@ -42,8 +41,6 @@ const Home = () => {
             </div>
             <Extra></Extra>
             <Services></Services>
-            <About></About>
-            <Footer></Footer>
         </div>
     );
 };

@@ -1,5 +1,5 @@
 import React from 'react';
-import useFirebase from '../../Hooks/useFirebase';
+import useAuth from '../../Hooks/useAuth';
 import './Login.css';
 
 
@@ -15,31 +15,32 @@ const Login = () => {
         toggler,
         isLogin,
         user,
-        error } = useFirebase();
+        error,
+        handleUserName } = useAuth();
 
     return (
         <div className="container-fluid">
-               {/* {     
-                user.email && 
-                <div>
-                <h2 className="text-center mb-4 mt-3">Welcome! {user.displayName}
-                </h2>
-                </div>
-                } */}
             <div className="row">
                 <div className="col-sm-7 formpart">
                 <form className="p-5">
+                {
+                    !isLogin && 
+                    <div className="mb-3">
+                    <label htmlFor="exampleInputName1" className="form-label">Name</label>
+                    <input onChange={handleUserName} type="text" className="form-control" id="exampleInputName1" aria-describedby="nameHelp" placeholder="User Name" required/>
+                    </div> 
+                }
                 <div className="mb-3">
                     <label htmlFor="exampleInputEmail1" className="form-label">Email address</label>
-                    <input onChange={handleEmail} type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
+                    <input onChange={handleEmail} type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your E-mail" required/>
                     <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div>
                 </div>
                 <div className="mb-3">
                     <label htmlFor="exampleInputPassword1" className="form-label">Password</label>
-                    <input onChange={handlePassword} type="password" className="form-control" id="exampleInputPassword1"/>
-                    <div className="form-check mt-2">
+                    <input onChange={handlePassword} type="password" className="form-control" id="exampleInputPassword1" placeholder="Password" required/>
+                    <div className="form-check mt-3">
                     <input onChange={toggler} type="checkbox" className="form-check-input" id="exampleCheck1"/>
-                    <label className="form-check-label text-white fw-bold" htmlFor="exampleCheck1">Already A User?</label>
+                    <label className="form-check-label text-white fw-bold" htmlFor="exampleCheck1">Already a User?</label>
                     </div>
                     {
                         error && <h5 className="text-danger mt-3">{error}</h5>

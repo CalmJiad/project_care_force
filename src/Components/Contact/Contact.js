@@ -5,8 +5,8 @@ const Contact = () => {
     return (
         <div>
             <div style={{backgroundColor: '#2b7a78', height: '600px'}} className="text-white contact">
-            <div className="col-md-6 mx-auto pt-5">
-            <h1 className="mb-5"> Contact Info </h1>
+            <div className="col-md-6 mx-auto pt-5 pb-3">
+            <h1 className="mb-3"> Contact Info </h1>
             <p>
             We denounce with righteous indignation in and dislike men who are so beguiled and to demo realized by the charms of pleasure moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound. Thanks for signing up for updates.
             <br/>
@@ -57,7 +57,7 @@ const Contact = () => {
             </div>
             </div>
             <div className="col-md-12">
-            <button className="btn btn-danger" type="submit">Submit form</button>
+            <button className="btn btn-danger" type="submit">Submit</button>
             </div>
         </form>
         </div> 

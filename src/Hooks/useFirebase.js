@@ -7,7 +7,8 @@ import {
     signOut, 
     createUserWithEmailAndPassword,
     signInWithEmailAndPassword,
-    onAuthStateChanged 
+    onAuthStateChanged,
+    updateProfile 
 } from "firebase/auth";
 import { useState } from "react";
 import { useEffect } from "react";
@@ -24,6 +25,7 @@ const useFirebase = () => {
     const [userEmail, setUserEmail] = useState('');
     const [userPass, setUserPass] = useState('');
     const [isLogin, setIsLogin] = useState(false);
+    const [userName, setUserName] = useState('');
 
     const googleSignInHandler = () => {
     signInWithPopup(auth, googleProvider)
@@ -67,11 +69,23 @@ const useFirebase = () => {
         e.preventDefault();
     }
 
+    const setUserNameInput = () => {
+        updateProfile(auth.currentUser, {
+            displayName: userName
+          }).then((res) => {
+            // Profile updated!
+            // ...
+          }).catch((error) => {
+            setError(error)
+          });
+    }
+
     const handleSubmit = (e) => {
     createUserWithEmailAndPassword(auth, userEmail, userPass)
     .then(result => {
         const user = result.user;
         setUser(user);
+        setUserNameInput();
     })
     .catch(error =>{
         setError(error.message)
@@ -82,6 +96,11 @@ const useFirebase = () => {
     const handleEmail = (e) => {
     setUserEmail(e.target.value);
     }
+
+    const handleUserName = (e) => {
+        setUserName(e.target.value)
+    }
+
     const handlePassword = (e) => {
     setUserPass(e.target.value);
     }
@@ -95,9 +114,9 @@ const useFirebase = () => {
         onAuthStateChanged(auth, (user) => {
         if (user) {
             setUser(user);      
-         }
-      });
-    }, [])
+           }
+        });
+  }, [])
   
     return {
         githubSignInHandler,
@@ -110,7 +129,9 @@ const useFirebase = () => {
         user,
         toggler,
         error,
-        isLogin
+        isLogin,
+        userName,
+        handleUserName
     }
 }
 
