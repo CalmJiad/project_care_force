@@ -7,7 +7,7 @@
 Here i tried to add some unique implementation like an unique homepage where anyone can find a some detailed information about a newly established hospital and their complete organisation. I also added a doctors list and showed some infos about the managements motto and vision. Here a user have to login or create an account with email password or google, github authentication to get some detailed information. Hope users will enjoy both the design and the functionality about this project.
 
 ## Projects Main Components-
-"Services"
+-Services
 => Service Details
 => Doctors List
 => Details/About
