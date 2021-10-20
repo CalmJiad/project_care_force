@@ -8,10 +8,10 @@ Here i tried to add some unique implementation like an unique homepage where any
 
 ## Projects Main Components-
 - Services
-=> Service Details
-=> Doctors List
-=> Details/About
-=> Some infrastructural information
+- Service Details
+- Doctors List
+- Details/About
+- Some infrastructural information
 
 ## Any suggestions/questions/feedback will be appriciated-
 connect me @ ikjiad123@gmail.com
